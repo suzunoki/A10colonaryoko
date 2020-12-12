@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="Shift_JIS">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>コロナリスクに特化した旅行サイト開発プロジェクト</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="説明">
+<meta name="keywords" content="キーワード">
+<link rel="stylesheet" href="CSS/style.css">
+<link rel="stylesheet" href="css/slide.css">
+<script type="text/javascript" src="js/openclose.js"></script>
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+<header>
+<div class="inner">
+<h1 id="logo"><a href="index.html"><img src="images/logo.png" alt="Sample Hotel"></a></h1>
+</div>
+</header>
+
+<div id="container">
+
+<!--大きな端末用（801px以上端末）メニュー-->
+<nav id="menubar">
+<ul>
+<li><a href="keikaku.html"><span>旅行計画</span>旅行計画</a></li>
+<li><a href="colonacount.html"><span>感染者数</span>感染者数</a></li>
+<li><a href="offline.html"><span>GoToトラベル関連</span>GoToトラベル関連</a></li>
+
+</ul>
+</nav>
+
+<!--小さな端末用（800px以下端末）メニュー-->
+<nav id="menubar-s">
+<ul>
+<li><a href="keikaku.html"><span>Home</span>旅行計画</a></li>
+<li><a href="colonacount.html"><span>Manu１</span>感染者数</a></li>
+<li><a href="offline.html"><span>Manu2</span>GoToトラベル関連</a></li>
+
+</ul>
+</nav>
+
+<aside id="mainimg">
+<img src="images/1.jpg" alt="" id="slide0">
+<img src="images/1.jpg" alt="" id="slide1">
+<img src="images/2.jpg" alt="" id="slide2">
+<img src="images/3.jpg" alt="" id="slide3">
+</aside>
+
+<div id="contents">
+
+<div id="main">
+
+
+<section>
+
+<h3>最もよくある症状</h3>
+<p><strong class="color1">・発熱</strong><br></p>
+<p><strong class="color1">・空咳</strong><br></p>
+<p><strong class="color1">・倦怠感</strong><br></p>
+<h3>時折みられる症状</h3>
+<p>・痛み</p>
+<p>・のどの痛み</p>
+<p>・下痢</p>
+<p>・結膜炎</p>
+<p>・頭痛</p>
+<p>・味覚又は、嗅覚の消失</p>
+<p>・皮膚の発疹又は、手足の指の変色</p>
+
+<h3>重篤な症状</h3>
+<p>・呼吸が苦しい、息切れがする</p>
+<p>・胸の痛み又は圧迫感</p>
+<p>・言語障害又は運動機能の喪失</p>
+
+<h3>新型コロナウイルスに感染している疑いがある方はこちらをお読みください</h3>
+<p><a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/dengue_fever_qa_00001.html">こちらをご覧下さい。</a></p>
+
+
+</section>
+
+</div>
+<!--/main-->
+
+<div id="sub">
+<!--
+<nav class="box1">
+<h2>Contents</h2>
+<ul class="submenu">
+<li><a href="index.html">サイドメニュー１</a></li>
+</ul>
+</nav>
+-->
+
+</div>
+<!--/sub-->
+
+</div>
+<!--/contents-->
+
+</div>
+<!--/container-->
+
+<p id="pagetop"><a href="#">↑</a></p>
+
+<footer>
+
+<div id="footermenu">
+<ul>
+<li><a href="keikaku.html">旅行計画</a></li>
+</ul>
+<ul>
+<li><a href="colonacount.html">感染者数</a></li>
+</ul>
+<ul>
+<li><a href="offline.html">GoToトラベル関連</a></li>
+</ul>
+
+</div>
+<!--/footermenu-->
+
+<div id="copyright">
+<small>Copyright&copy; <a href="index.html">SAMPLE HOTEL</a> All Rights Reserved.</small>
+<span class="pr">《<a href="http://template-party.com/" target="_blank">Web Design:Template-Party</a>》</span>
+</div>
+
+</footer>
+
+<!--お知らせ欄の開閉処理条件　800px以下-->
+<script type="text/javascript">
+if (OCwindowWidth() <= 800) {
+	open_close("newinfo_hdr", "newinfo");
+}
+</script>
+
+<!--メニューの３本バー-->
+<div id="menubar_hdr" class="close"><span></span><span></span><span></span></div>
+<!--メニューの開閉処理条件設定　800px以下-->
+<script type="text/javascript">
+if (OCwindowWidth() <= 800) {
+	open_close("menubar_hdr", "menubar-s");
+}
+</script>
+</body>
+</html>
